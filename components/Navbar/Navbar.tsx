@@ -73,7 +73,7 @@ export default function NavBar() {
   );
  
   return (
-    <div className="border-b">
+    <div data-aos="fade-down" className="border-b">
         <Navbar className="shadow-none mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <Link

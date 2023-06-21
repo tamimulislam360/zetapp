@@ -52,7 +52,7 @@ const WhyChooseUs = () => {
         },
     ]
     return (
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1000">
             <div className="max-w-screen-xl mx-auto p-6">
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-4">
                     <div className="max-w-md flex flex-col gap-3">
@@ -66,7 +66,7 @@ const WhyChooseUs = () => {
                     <div className='grow grid grid-cols-1 md:grid-cols-2 gap-3'>
                         {
                             whyChoose.map(why => (
-                                <div key={why.id} className="flex flex-col gap-3 items-center md:items-start">
+                                <div data-aos="fade-left" data-aos-duration="1000" key={why.id} className="flex flex-col gap-3 items-center md:items-start">
                                     <div>
                                         <Image src={why.icon} alt='' />
                                     </div>

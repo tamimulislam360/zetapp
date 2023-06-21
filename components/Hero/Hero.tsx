@@ -21,16 +21,16 @@ const Hero = () => {
     <section className="w-screen py-12">
       <div className="mx-auto max-w-screen-xl px-4 lg:flex lg:items-center">
         <div className="mx-auto max-w-xl text-center lg:text-left">
-          <h1 className="text-3xl font-extrabold sm:text-5xl">
+          <h1 data-aos-duration="1000"  data-aos="fade-up" className="text-3xl font-extrabold sm:text-5xl">
             Become a Financial Advisor and{" "}
             <strong className="font-extrabold text-primary sm:block">
               Earn Rs.1 Lakh/Month
             </strong>
           </h1>
 
-          <p className="mt-4 sm:text-xl/relaxed">No investment required</p>
+          <p data-aos-duration="1000"  data-aos="fade-right" className="mt-4 sm:text-xl/relaxed">No investment required</p>
 
-          <div className="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start">
+          <div data-aos-duration="1000"  data-aos="fade-right" className="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start">
             <Link
               href="https://play.google.com/store/apps/details?id=in.onecode.app"
               target="_blank"
@@ -39,7 +39,7 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="hidden lg:block max-w-md">
+        <div data-aos-duration="1000"  data-aos="fade-left" className="hidden lg:block max-w-md">
           <Image src={heroImg} alt="heor img" className="w-full h-full" />
         </div>
       </div>

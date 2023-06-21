@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 const Earnings = () => {
     return (
-        <div className={`bg-[#0A2540] text-white ${styles.clip} py-44`}>
+        <div data-aos="fade-right" data-aos-duration="1000" className={`bg-[#0A2540] text-white ${styles.clip} py-44`}>
             <div className="max-w-screen-xl max-auto p-6 flex flex-col items-center gap-6">
                 <SectionHeader
                     header='Start Earning in 3 Easy Steps'

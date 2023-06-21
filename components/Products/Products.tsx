@@ -38,7 +38,7 @@ const Products = () => {
   ];
   
   return (
-    <div className="w-screen py-12 px-3 bg-gradient-to-br from-[#E9F4FF] to-white">
+    <div className="w-screen py-12 px-3 bg-gradient-to-br from-[#E9F4FF] to-white" data-aos="fade-up" data-aos-duration="1000">
       <div className="max-w-screen-xl mx-auto">
         <SectionHeader
           header="Products on ZET"
@@ -47,7 +47,9 @@ const Products = () => {
         <div className="grid sm:grid-cols-2 space-x-6 space-y-6 mx-auto p-2">
             {
                       products.map(product => (
-                    <div key={product.id} className={` flex flex-col md:flex-row gap-4 rounded-sm border p-4 items-center hover:bg-white scale-95 hover:scale-105 duration-150 bg-[${product.bg}]`}>
+                    <div
+                    data-aos="fade-in" data-aos-duration="1000" 
+                    key={product.id} className={` flex flex-col md:flex-row gap-4 rounded-sm border p-4 items-center hover:bg-white scale-95 hover:scale-105 duration-150 bg-[${product.bg}]`}>
                         <Image src={product.image} alt="" width={125} height={125} />
                         <div className="flex flex-col gap-2 justify-center items-center md:items-start">
                             <Typography variant="h5">{product.title}</Typography>

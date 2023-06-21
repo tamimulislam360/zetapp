@@ -21,7 +21,7 @@ const currentYear = new Date().getFullYear();
  
 export default function Footer() {
   return (
-    <footer className="relative w-full bg-primary text-white">
+    <footer data-aos="fade-up" data-aos-duration="1000" className="relative w-full bg-primary text-white">
       <div className="mx-auto w-full max-w-7xl px-8">
       <div className="mt-12 flex w-full flex-col items-center justify-center border-b border-white py-4 md:flex-row md:justify-between">
           <Image src={ZETWHITE} alt="" />

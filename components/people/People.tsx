@@ -6,7 +6,7 @@ import styles from './People.module.css'
 
 const People = () => {
     return (
-        <div className={`${styles.clip} my-16 scroll-m-0 bg-primary px-4 py-12 text-white `}>
+        <div data-aos="fade-in" data-aos-duration="1000" className={`${styles.clip} my-16 scroll-m-0 bg-primary px-4 py-12 text-white `}>
             <div className={`${styles.clip} max-w-screen-xl mx-auto flex justify-between items-center gap-2 bg-[#417FDA] rounded p-1 relative h-full`}>
                 <div className="hidden md:block">
                     <Image src={people} alt="" className="w-full h-full object-cover" />

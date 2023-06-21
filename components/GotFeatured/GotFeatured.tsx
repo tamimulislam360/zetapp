@@ -11,7 +11,7 @@ import Image from "next/image";
 const GotFeatured = () => {
   const featured = [EconomicTimes, Inc42, mint, YourStory, BusinessStandard];
   return (
-    <div className="bg-[#FAFBFE] p-6 ">
+    <div data-aos="fade-up" data-aos-duration="1000" className="bg-[#FAFBFE] p-6 ">
       <div className="max-w-screen-xl mx-auto">
         <h2 className="text-2xl font-bold md:text-4xl my-6">Got Featured</h2>
 

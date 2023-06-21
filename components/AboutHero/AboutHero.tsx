@@ -15,15 +15,15 @@ const AboutHero = () => {
         </div>
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
-            <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+            <h2 data-aos="fade-up" data-aos-duration="1000" className="mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
             OUR <span className="text-primary">MISSION</span>
             </h2>
-            <p className="mb-6 text-base md:text-lg">
+            <p data-aos="fade-right" data-aos-duration="1000" className="mb-6 text-base md:text-lg">
             Enabling financial inclusion for the next billion Indians
             & making their Zindagi Set. Building a platform that enables you to sell
             financial products & earn up to Rs. 1 lakh every month.
             </p>
-            <p className="max-w-md mb-10 text-xl font-bold tracking-wide  sm:text-sm sm:mx-auto md:mb-16">
+            <p data-aos="fade-left" data-aos-duration="1000" className="max-w-md mb-10 text-xl font-bold tracking-wide  sm:text-sm sm:mx-auto md:mb-16">
             EARN BETTER. LIVE BETTER.
             </p>
            

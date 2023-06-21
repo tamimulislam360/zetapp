@@ -43,7 +43,7 @@ const Brands = () => {
 
     
     return (
-        <div className="max-w-screen-xl mx-auto space-y-6 my-12">
+        <div className="max-w-screen-xl mx-auto space-y-6 my-12" data-aos="fade-up" data-aos-duration="1000">
             <SectionHeader 
             header="Top Brands on ZET"
             subheader="We are trusted by best brand in the country"

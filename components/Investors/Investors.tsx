@@ -75,14 +75,14 @@ const Investors = () => {
     ]
 
     return (
-        <div className='px-3 md:px-0'>
+        <div data-aos="fade-up" data-aos-duration="1000" className='px-3 md:px-0'>
             <div className="max-w-screen-xl mx-auto flex flex-col gap-4 my-6">
             <h2 className="text-2xl font-bold md:text-4xl my-6">Meet the Investors</h2>
 
             <div className="flex flex-wrap gap-4 justify-center my-6">
                 {
                     Investors.map((invest, i) => (
-                        <div key={i} className="max-w-[240px] grow">
+                        <div data-aos="fade-in" data-aos-duration="1000" key={i} className="max-w-[240px] grow">
                             <Image src={invest} alt="" />
                         </div>
                     ))
@@ -92,7 +92,7 @@ const Investors = () => {
             <div className="flex flex-wrap gap-4 justify-center">
                 {
                     peopleInvestors.map(({name, title, id, image}) => (
-                        <div key={id} className=" min-w-max max-w-[240px] grow">
+                        <div data-aos="fade-in" data-aos-duration="1000" key={id} className=" min-w-max max-w-[240px] grow">
                             <Image src={image} alt="" className="w-full h-[240px] rounded-md" />
                             <h2 className="text-xl font-bold">{name}</h2>
                             <h2 className="text-md font-bold text-gray-400">{title}</h2>
